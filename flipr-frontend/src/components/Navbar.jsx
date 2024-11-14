@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false); // State to toggle the menu on mobile
+  const [isOpen, setIsOpen] = useState(false); 
 
   const toggleMenu = () => {
-    setIsOpen(!isOpen); // Toggle the menu visibility
+    setIsOpen(!isOpen); 
   };
 
   return (
@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className="text-2xl font-bold">&#123;Finsweet</div>
 
       {/* Hamburger Icon */}
-      <div className="lg:hidden flex items-center">
+      <div className="lg:hidden flex flex-col items-center">
         <button onClick={toggleMenu} className="text-white">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -28,7 +28,7 @@ const Navbar = () => {
               strokeWidth="2"
               d="M4 6h16M4 12h16M4 18h16"
             />
-          </svg>
+          </svg>Menu
         </button>
       </div>
 

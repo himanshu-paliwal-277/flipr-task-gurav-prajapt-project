@@ -2,7 +2,6 @@ import React from "react";
 import Slider from "../components/Slider";
 import Features from "../components/Features";
 import Category from "./Category";
-import Author from "./Author";
 import Section1 from "../components/Section1";
 import JoinNow from "../components/JoinNow";
 import Section3 from "../components/Section3";

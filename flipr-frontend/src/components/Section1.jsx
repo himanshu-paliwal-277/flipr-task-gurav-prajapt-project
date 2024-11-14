@@ -6,7 +6,7 @@ function Section1() {
     <>
     <div className="flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8">
   {/* Shape Images */}
-<div className="flex justify-center sm:justify-start lg:justify-start sm:pl-10 lg:pl-24">
+<div className="flex justify-center relative pl-40 sm:relative right-14 sm:right-0 md:right-0 lg:right-0">
   <img 
     src={shape} 
     alt="Shape" 
@@ -14,11 +14,11 @@ function Section1() {
   <img 
     src={shape1} 
     alt="Shape 1" 
-    className="ml-4"
+    className="md:w-72 w-28"
   />
 </div>
   {/* Content Section */}
-  <div className="bg-backgroundSoft p-6 sm:p-10 shadow-md flex flex-col md:flex-row justify-between items-start w-full max-w-5xl mt-6 gap-6">
+  <div className="bg-backgroundSoft sm:p-10 shadow-md flex flex-col md:flex-row justify-between items-start w-full max-w-7xl gap-6">
     {/* About Us Section */}
     <div className="md:w-1/2">
       <h2 className="text-gray-500 text-sm font-bold mb-2">ABOUT US</h2>
